@@ -1,0 +1,55 @@
+.left-panel {
+    width: 100%;
+    padding: 0px 15px;
+    float: left;
+    text-align: left;
+}
+
+.display-pic {
+    width: 100%;
+    border: 1px solid #e1e4e8;
+    border-bottom: 0;
+    border-radius: 10px;
+    display: inline-block;
+    overflow: hidden;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.full-name {
+    font-size: 26px;
+    line-height: 30px;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.username {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    color: #666;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+.bio {
+    overflow: hidden;
+    word-wrap: break-word;
+    color: #555;
+    font-size: 14px;
+}
+
+.edit-bio {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.details span {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+}

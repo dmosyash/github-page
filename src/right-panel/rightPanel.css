@@ -1,0 +1,47 @@
+.right-panel {
+    width: 100%;
+    padding: 0px 15px;
+    float: left;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.header-tabs {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #d1d5da;
+}
+
+.header-tabs span {
+    font-size: 14px;
+    cursor: pointer;
+    padding: 16px 8px;
+    margin-right: 16px;
+    line-height: 1.5;
+    color: #586069;
+    text-align: center;
+    border: 0;
+    border-bottom: 2px solid transparent;
+}
+
+.search-section {
+    padding: 15px 0px;
+    display: flex;
+    border-bottom: 1px solid #d1d5da
+}
+
+.search-text {
+    min-height: 34px;
+    padding: 6px 8px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #24292e;
+    vertical-align: middle;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(27, 31, 35, .075);
+    flex: auto;
+    margin-right: 15px;
+}
