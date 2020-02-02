@@ -19,29 +19,3 @@ export const getRepoDetails = (userId) => {
     let apiUrl = new URL(`${baseUrl}${userId ? userId : USER}/repos`);
     return getAPIcall(apiUrl);
 }
-
-export const getSearchResults = (params = {}) => {
-    let apiUrl = new URL(`${baseUrl}search/movie`);
-    return getAPIcall(apiUrl, params);
-}
-
-
-export const getMovieCast = (id, params = {}) => {
-    let apiUrl = new URL(`${baseUrl}movie/${id}/credits`);
-    return getAPIcall(apiUrl, params);
-}
-
-export const getCastDetails = (id, params = {}) => {
-    let apiUrl = new URL(`${baseUrl}person/${id}`);
-    return getAPIcall(apiUrl, params);
-}
-
-export const getCastMovies = (id, params = {}) => {
-    let apiUrl = new URL(`${baseUrl}person/${id}/movie_credits`);
-    return getAPIcall(apiUrl, params);
-}
-
-export const getSimilarMovies = (id, params = {}) => {
-    let apiUrl = new URL(`${baseUrl}movie/${id}/similar`);
-    return getAPIcall(apiUrl, params);
-}
