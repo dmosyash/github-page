@@ -1,14 +1,12 @@
 .right-panel {
     width: 100%;
-    padding: 0px 15px;
+    padding-left: 15px;
     float: left;
     text-align: left;
-    margin-left: 20px;
 }
 
 .header-tabs {
     margin-top: 15px;
-    width: 100%;
     display: flex;
     border-bottom: 1px solid #d1d5da;
 }
@@ -25,10 +23,19 @@
     border-bottom: 2px solid transparent;
 }
 
+@media only screen and (max-width: 600px) {
+    .right-panel {
+        width: 95%;
+    }
+    .header-tabs span {
+        margin-right: 0px;
+    }
+}
+
 .search-section {
     padding: 15px 0px;
     display: grid;
-    grid-template-columns: auto 20% 20%;
+    grid-template-columns: 55% 20% 20%;
     grid-column-gap: 10px;
     border-bottom: 1px solid #d1d5da
 }
