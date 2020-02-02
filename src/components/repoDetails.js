@@ -49,7 +49,7 @@ function RepoDetails({ details }) {
                           <span>{details.language}</span>
                       </span>) : null}
                    Updated 
-              <relative-time datetime="2019-03-04T11:24:44Z" class="no-wrap" title="Mar 4, 2019, 4:54 PM GMT+5:30"> on Mar 4, 2019</relative-time>
+                  <relative-time datetime="2019-03-04T11:24:44Z" class="no-wrap" title="Mar 4, 2019, 4:54 PM GMT+5:30"> on {details.updated_at}</relative-time>
               </div>
           </div>
           <button className="btn" style={buttonStyle}>Star</button>

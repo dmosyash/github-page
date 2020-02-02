@@ -41,15 +41,29 @@
   width: 80%;
   margin: auto;
   margin-top: 20px;
+  display: grid;
+  grid-template-columns: 25% auto;
+  grid-template-areas: "left-panel right-panel";
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 150px auto;
+    grid-template-areas: 
+    "left-panel"
+    "right-panel";
+  }
 }
 
 .left-wrapper {
-  width: 25%;
+  grid-area: 'left-panel';
   float: left;
 }
 
 .right-wrapper {
-  width: 65%;
+  grid-area: 'right-panel';
   float: left;
 }
 

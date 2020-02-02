@@ -23,13 +23,10 @@ class LeftPanel extends Component {
         const { userDetails } = this.state;
         return (
             <div className="left-panel" >
-                {/* <div > */}
-                    <img className="display-pic" src={userDetails.avatar_url} />
-                {/* </div> */}
+                <img className="display-pic" src={userDetails.avatar_url} />
+                <div className="profile-details-section">
                 <h1 className="full-name">{userDetails.name}</h1>
-                {/* <div className="username"> */}
-                    <h5 className="username">{userDetails.login}</h5>
-                {/* </div> */}
+                <h5 className="username">{userDetails.login}</h5>
                 <div className="bio">
                     <span>{userDetails.bio}</span>
                 </div>
@@ -37,6 +34,7 @@ class LeftPanel extends Component {
                 <div className="details">
                     <span>{userDetails.company}</span>
                     <span>{userDetails.location}</span>
+                    </div>
                 </div>
             </div>
         );

@@ -3,6 +3,27 @@
     padding: 0px 15px;
     float: left;
     text-align: left;
+    display: grid;
+}
+
+@media only screen and (max-width: 600px) {
+    .left-panel {
+        grid-template-rows: auto;
+        grid-template-columns: 30% auto;
+        grid-template-areas: "dp profile-details";
+    }
+
+    .profile-details-section {
+        padding-left: 30px;
+    }
+
+    .username {
+        display: none;
+    }
+
+    .details {
+        display: none;
+    }
 }
 
 .display-pic {
@@ -14,6 +35,11 @@
     overflow: hidden;
     line-height: 1;
     vertical-align: middle;
+    grid-area: "dp";
+}
+
+.profile-details-section {
+    grid-area: "profile-details";
 }
 
 .full-name {
