@@ -1,0 +1,59 @@
+.SelectMenu-section {
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: auto;
+        padding: 0;
+        display: flex;
+        pointer-events: none;
+        flex-direction: column;
+        width: 300px;
+        height: auto;
+        max-height: 480px;
+        margin: 4px 0 16px;
+        font-size: 12px;
+        border: 1px solid #d1d5da;
+        border-radius: 3px;
+        box-shadow: 0 1px 5px rgba(27, 31, 35, .15);
+        z-index: 99;
+        /* max-height: 66%;
+        margin: auto 0; */
+        overflow: hidden;
+        pointer-events: auto;
+        flex-direction: column;
+        background-color: #f6f8fa;
+}
+
+.SelectMenu-header {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    flex: none;
+    font-weight: 600;
+}
+
+.SelectMenu-list {
+    position: relative;
+    padding: 0;
+    margin: 0 0 -1px;
+    flex: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #fff;
+    border-top: 1px solid #e1e4e8;
+}
+
+.SelectMenu-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 16px;
+    overflow: hidden;
+    color: #586069;
+    text-align: left;
+    cursor: pointer;
+    background-color: #fff;
+    border: 0;
+    border-bottom: 1px solid #eaecef;
+}
