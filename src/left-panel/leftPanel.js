@@ -23,7 +23,7 @@ class LeftPanel extends Component {
         const { userDetails } = this.state;
         return (
             <div className="left-panel" >
-                <img className="display-pic" src={userDetails.avatar_url} />
+                <img className="display-pic" alt="profile-pic" src={userDetails.avatar_url} />
                 <div className="profile-details-section">
                 <h1 className="full-name">{userDetails.name}</h1>
                 <h5 className="username">{userDetails.login}</h5>
