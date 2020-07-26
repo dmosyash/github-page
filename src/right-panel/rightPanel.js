@@ -130,8 +130,8 @@ class RightPanel extends Component {
                         onChange={this.handleSearchChange}
                         placeholder="Search Repository..."
                     />
-                    <button className="btn" onClick={e => this.filterClicked('type', e)}>Type: {selectedFilter.type}</button>
-                    <button className="btn" onClick={e => this.filterClicked('language', e)}>Language: {selectedFilter.language}</button>
+                    <button className="btn small-btn" onClick={e => this.filterClicked('type', e)}>Type: {selectedFilter.type}</button>
+                    <button className="btn small-btn" onClick={e => this.filterClicked('language', e)}>Language: {selectedFilter.language}</button>
                     {this.filterDiv()}
                 </div>
                 <div className="repo-list">

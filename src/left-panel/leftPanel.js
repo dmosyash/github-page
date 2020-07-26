@@ -30,7 +30,7 @@ class LeftPanel extends Component {
                 <div className="bio">
                     <span>{userDetails.bio}</span>
                 </div>
-                <button className="edit-bio btn">Edit</button>
+                <button className="edit-bio btn">Follow</button>
                 <div className="details">
                     <span>{userDetails.company}</span>
                     <span>{userDetails.location}</span>

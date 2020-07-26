@@ -2,7 +2,7 @@ import React from 'react';
 import './../App.css';
 
 let repoStyle = {
-    padding: '10px',
+    padding: '15px',
     position: 'relative',
     borderBottom: '1px solid #e1e4e8'
 }
@@ -12,6 +12,7 @@ let repoDetailsStyle = {
 }
 
 let repoNameStye = {
+    marginTop: '0px',
     color: '#0366d6'
 }
 
@@ -42,7 +43,7 @@ function RepoDetails({ details }) {
           <div style={repoDetailsStyle}>
               <h3 style={repoNameStye}>{details.name}</h3>
               <p style={repoDescriptionStyle}>{details.description}</p>
-              <div>
+              <div style={repoDescriptionStyle}>
                   {details.language ?
                     (<span style={{marginRight: '20px', fontSize: '12px'}}>
                           <span style={repoLanguageCircle}></span>

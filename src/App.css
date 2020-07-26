@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: sans-serif;
 }
 
 .App-header {
@@ -43,7 +44,8 @@
   vertical-align: middle;
   cursor: pointer;
   border: 1px solid rgba(27, 31, 35, .2);
-  border-radius: .25em;
+  border-radius: .40em;
+  background-color: #ffffff;
 }
 
 @media only screen and (max-width: 600px) {

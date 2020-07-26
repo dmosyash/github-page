@@ -36,9 +36,9 @@
 .search-section {
     padding: 15px 0px;
     display: grid;
-    grid-template-columns: 55% 20% 20%;
-    grid-column-gap: 10px;
-    border-bottom: 1px solid #d1d5da
+    grid-template-columns: 75% 12% 12%;
+    grid-column-gap: 7px;
+    border-bottom: 1px solid #d1d5da;
 }
 
 .search-text {
@@ -59,4 +59,9 @@
 .repo-name {
     /* word-break: break-all; */
     color: #0366d6
+}
+
+.small-btn {
+    padding: 5px 6px;
+    font-size: small;
 }
